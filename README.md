@@ -27,10 +27,15 @@ Caffe implementation of "RESIDUAL MAGNIFIER: A DENSE INFORMATION FLOW NETWORK FO
     <em> Convergence analysis of DIF-Net with different values of T, C, and R. </em>
 </p>
 
+<p align="center">
+    <img src="files/visual_results.png" width="800"> <br />
+    <em> Visual qualitative comparison. </em>
+</p>
+
 
 ## Requirements and Dependencies
-* MATLAB (we test with MATLAB R2015b on Ubuntu 16.04 and Windows 8.1)
-* Cuda & Cudnn (we test with Cuda 8.0 and Cudnn 5)
+* MATLAB (we test with MATLAB R2015b on Ubuntu 16.04 and Windows 8.1).
+* Cuda & Cudnn (we test with Cuda 8.0 and Cudnn 5).
 
 **Note:** Please make sure the matcaffe is complied successfully.
 
