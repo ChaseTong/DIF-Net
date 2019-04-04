@@ -18,7 +18,7 @@ Caffe implementation of "RESIDUAL MAGNIFIER: A DENSE INFORMATION FLOW NETWORK FO
 </p>
 
 <p align="center">
-    <img src="files/residual.png" width="800"> <br />
+    <img src="files/residual.png" width="640"> <br />
     <em> The residual images comparison and corresponding data distribution histogram analysis. </em>
 </p>
 
@@ -28,21 +28,19 @@ Caffe implementation of "RESIDUAL MAGNIFIER: A DENSE INFORMATION FLOW NETWORK FO
 </p>
 
 
-## Run test
+## Requirements and Dependencies
+* MATLAB (we test with MATLAB R2015b on Ubuntu 16.04 and Windows 8.1)
+* Cuda & Cudnn (we test with Cuda 8.0 and Cudnn 5)
 
-* Install Caffe, Matlab R2015b
-* Run testing:
-$ cd ./test
-$ matlab
->> test_IDN 
-```
 **Note:** Please make sure the matcaffe is complied successfully.
+
+## Testing
 * step 1: Download testing dataset and put them into ./test/test_data
 * step 2: Put the trained caffemodels in ./train/caffemodel into ./test/caffemodel
 * step 3: Run ./test/Demo, if it can not run successfully, maybe you can try to change "caffe.set_mode_gpu()" to "caffe.set_mode_cpu();". Besides, if errors happen in one dataset, just put it aside and test other datasets.
 
 The results are stored in "results" folder, with both reconstructed images and PSNR/SSIM.
-## Train
+## Training
 * step 1: Download training dataset and put them into ./train/DIV2K_train_HR
 * step 2: Run `data_aug.m` to augment DIV2K dataset
 * step 3: Run `generate_train_IDN.m` to convert training images to hdf5 file
