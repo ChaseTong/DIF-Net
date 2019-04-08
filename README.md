@@ -66,4 +66,4 @@ If you find DIF-Net useful in your research, please consider citing:
 ```
 
 ## Contact
-If you have any questions and requirements on the technology or the paper, please contact to Zhan Shu with email 474048176@qq.com, thank you.
+If you have any questions and requirements on the technology or the paper, please contact Zhan Shu with email 474048176@qq.com, thank you.  
