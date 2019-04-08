@@ -56,12 +56,14 @@ The results are stored in "results" folder, with both reconstructed images and P
 
 If you find DIF-Net useful in your research, please consider citing:
 
+```
 @inproceedings{DIF-Net-2019,
   title={RESIDUAL MAGNIFIER: A DENSE INFORMATION FLOW NETWORK FOR SUPER RESOLUTION},
   author={Zhan Shu, Mengcheng Cheng, Biao Yang, Zhuo Su, Xiangjian He},
   booktitle={ICME},
   year={2019}
 }
+```
 
 ## Contact
 If you have any questions and requirements on the technology or the paper, please contact to Zhan Shu with email 474048176@qq.com, thank you.
